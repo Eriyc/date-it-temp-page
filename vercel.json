@@ -1,8 +1,8 @@
 {
   "redirects": [
     {
-      "from": "/(.*)",
-      "to": "/",
+      "source": "/(.*)",
+      "destination": "/",
       "permanent": false
     }
   ]
