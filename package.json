@@ -1,6 +1,12 @@
 {
   "private": true,
+  "scripts": {
+    "watch": "tailwindcss -i ./styles.css -o ./public/styles.css --watch"
+  },
   "dependencies": {
     "@vercel/edge": "^0.1.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
   }
 }

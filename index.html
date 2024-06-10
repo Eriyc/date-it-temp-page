@@ -4,93 +4,73 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script defer src="/_vercel/insights/script.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-    />
+    <link rel="stylesheet" href="/public/styles.css" />
     <title>Vercel HTML Starter</title>
     <meta
       name="description"
       content="High-performance HTML based website template."
     />
   </head>
+
   <body>
-    <h1>Vercel HTML Starter</h1>
-    <p>
-      This template is a simple, but powerful single
-      <code>index.html</code> file deployed to
-      <a href="https://vercel.com">Vercel</a>. When your site is deployed, all
-      static assets (like HTML, JavaScript, CSS, images, and more) are deployed
-      globally to every
-      <a href="https://vercel.com/docs/concepts/edge-network/overview"
-        >Vercel Edge Network</a
-      >
-      region.
-    </p>
-    <h2>Simple, privacy-friendly analytics</h2>
-    <p>
-      Want to understand your visitor traffic? Vercel Analytics gives you
-      first-party, privacy-friendly traffic analytics for your HTML site. This
-      template is already configured using the following script:
-    </p>
-    <pre><code>&lt;script defer src="/_vercel/insights/script.js"&gt;&lt;/script&gt;</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/analytics">Vercel Analytics</a>.
-    </p>
-    <h2>Integrated with git</h2>
-    <p>
-      Deploying updates to your site is as simple as
-      <code>git push</code> thanks to Vercel's advanced
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-      Support for GitHub, GitLab, Bitbucket is zero-configuration, and with the
-      flexible Vercel CLI and API, you can integrate with any tool possible.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-    </p>
-    <h2>Fast <code>gzip</code> compression</h2>
-    <p>
-      To help ensure the smallest possible file sizes for your static assets,
-      the Vercel Edge Network compresses files by default using
-      <code>gzip</code>. You can also optionally use
-      <code>brotli</code> compressesion if you prefer.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/edge-network/compression"
-        >compression</a
-      >.
-    </p>
-    <h2>Advanced routing configuration</h2>
-    <p>
-      Vercel gives you a variety of ways to configure the routing of your
-      website. For example, adding redirects, rewrites, or headers to your page.
-      While you can use <code>vercel.json</code> to define these through JSON,
-      you can also express your routing configuration as code using
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-    <p>
-      Middleware runs before the
-      <a href="https://vercel.com/docs/concepts/edge-network/caching"
-        >Vercel Edge Network Cache</a
-      >, so you can configure routing exactly as your application needs. For
-      example, this template uses <code>middleware.js</code> defined in the root
-      of the repository to add additional security headers to the site:
-    </p>
-    <pre><code>referrer-policy: origin-when-cross-origin
-strict-transport-security: max-age=31536000; includeSubDomains; preload
-x-content-type-options: nosniff
-x-dns-prefetch-control: on
-x-frame-options: DENY</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
+    <div
+      className="flex flex-col items-center justify-center min-h-[100dvh] bg-gray-800 px-4 md:px-6"
+    >
+      <div className="max-w-md w-full space-y-6 text-center">
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/5f6afadfaaa4185124f86028/1600863300933-QUYS1FH40D0SDGHL2A1H/bag-and-text-white-transparent-large.png?format=1500w"
+          alt="Logo"
+          width="{64}"
+          height="{64}"
+          className="mx-auto"
+        />
+        <div
+          className="inline-block rounded-lg bg-red-500 px-3 py-1 text-sm font-medium text-white"
+        >
+          Platform Temporarily Unavailable
+        </div>
+        <h1
+          className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl"
+        >
+          We're sorry, our application form is currently unavailable.
+        </h1>
+        <p className="text-gray-500 dark:text-gray-400 md:text-xl">
+          We are currently experiencing some technical difficulties and our
+          service is temporarily unavailable. We apologize for the inconvenience
+          and are working hard to restore normal operations as soon as possible.
+          In the meantime, please feel free to contact us via email if you have any questions.
+        </p>
+        <div className="flex flex-col gap-2 sm:flex-row sm:justify-center">
+          <a
+            href="https://date-it.se"
+            className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+            prefetch="{false}"
+          >
+            Go to Homepage
+          </a>
+          <div
+            className="text-gray-500 dark:text-gray-400 flex items-center justify-center gap-2"
+          >
+            <svg
+              {...props}
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <rect width="20" height="16" x="2" y="4" rx="2" />
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+            </svg>
+
+            <span><a href="mailto:info@date-it.se">info@date-it.se</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
