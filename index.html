@@ -3,53 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="/_vercel/insights/script.js"></script>
-    <link rel="stylesheet" href="/public/styles.css" />
+    <link rel="stylesheet" href="output.css" />
     <title>Vercel HTML Starter</title>
-    <meta
-      name="description"
-      content="High-performance HTML based website template."
-    />
+    <meta name="description" content="DatE-IT error page" />
   </head>
 
-  <body>
+  <body class="bg-gray-800">
     <div
-      className="flex flex-col items-center justify-center min-h-[100dvh] bg-gray-800 px-4 md:px-6"
+      class="flex flex-col items-center justify-center min-h-[100vh] bg-gray-800 px-4 md:px-6"
     >
-      <div className="max-w-md w-full space-y-6 text-center">
+      <div class="max-w-lg w-full space-y-6 text-center">
         <img
           src="https://images.squarespace-cdn.com/content/v1/5f6afadfaaa4185124f86028/1600863300933-QUYS1FH40D0SDGHL2A1H/bag-and-text-white-transparent-large.png?format=1500w"
           alt="Logo"
           width="{64}"
           height="{64}"
-          className="mx-auto"
+          class="mx-auto"
         />
         <div
-          className="inline-block rounded-lg bg-red-500 px-3 py-1 text-sm font-medium text-white"
+          class="inline-block rounded-lg bg-red-500 px-3 py-1 text-sm font-medium text-white"
         >
           Platform Temporarily Unavailable
         </div>
         <h1
-          className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl"
+          class="text-3xl text-white font-bold tracking-tighter sm:text-4xl md:text-5xl"
         >
           We're sorry, our application form is currently unavailable.
         </h1>
-        <p className="text-gray-500 dark:text-gray-400 md:text-xl">
+        <p class="text-gray-500 dark:text-gray-400 md:text-xl">
           We are currently experiencing some technical difficulties and our
           service is temporarily unavailable. We apologize for the inconvenience
           and are working hard to restore normal operations as soon as possible.
-          In the meantime, please feel free to contact us via email if you have any questions.
         </p>
-        <div className="flex flex-col gap-2 sm:flex-row sm:justify-center">
+        <p class="text-gray-500 dark:text-gray-400 md:text-xl">
+          In the meantime, please feel free to contact us via email if you have
+          any questions.
+        </p>
+        <div class="flex flex-col gap-2 sm:flex-row sm:justify-center">
           <a
             href="https://date-it.se"
-            className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+            class="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
             prefetch="{false}"
           >
             Go to Homepage
           </a>
           <div
-            className="text-gray-500 dark:text-gray-400 flex items-center justify-center gap-2"
+            class="text-gray-500 dark:text-gray-400 flex items-center justify-center gap-2"
           >
             <svg
               {...props}
