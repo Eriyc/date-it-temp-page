@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "watch": "tailwindcss -i ./styles.css -o ./output.css --watch",
-    "build": "mkdir build && cp output.css build/output.css && cp index.html build/index.html"
+    "build": "mkdir build && cp output.css build/output.css && cp index.html build/index.html && cp middleware.js build/middleware.js"
   },
   "dependencies": {
     "@vercel/edge": "^0.1.2"
